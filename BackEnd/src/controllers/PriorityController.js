@@ -19,7 +19,7 @@ module.exports ={
         }
         await annotation.save();
 
-        return response.json({annotation});
+        return response.json(annotation);
     }
     
 }
