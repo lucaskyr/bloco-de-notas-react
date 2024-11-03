@@ -7,6 +7,7 @@ module.exports = {
         return response.json({annotationsList})
 
     },
+    
 
     async creat(request,response){
         const {title,notes,priority} = request.body;
